@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    font-size: 1.5rem;
+}
+.nav-logo p{
+    font-size: 1rem;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.lib-logo{
+   display: flex;
+   justify-content: center;
+   margin-top: 0.5rem;
+   color: lightpink;
+}
+.border:hover{
+    border: 2px solid rgb(215, 215, 233);
+}
+.signin{
+    color: #cccccc;
+    font-size: smaller;
+}
+.signin-icon{
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+}
+.signin-icon p{
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: small;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lavender;
+    height: 40px;
+    width: 600px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    border: none;
+    width: 50px;
+}
+.search-input{
+    border: none;
+    font-size:medium;
+    width: 100%;
+}
+.search-icon{
+    border: none;
+    background-color: rgba(255, 166, 0, 0.902);
+    width: 45px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1.2rem;
+    color: #0f1111;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+span{
+    font-size: small;
+}
+.nav-publish{
+    font-size: medium;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.nav-cart i{
+    font-size: x-large;
+}
+
+
+
+
+.pannel{
+    background-color:  #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+}
+.pannel-options p{
+    display: inline;
+    margin-left: 15px;
+}
+.pannel-options{
+    width: 75%;
+    font-size: smaller;
+}
+.pannel-updates{
+    font-weight: 700;
+}
+
+
+
+.hero-section{
+    background-image: url("hp-lib.webp");
+    background-size: cover;
+    height: 500px;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hero-direction{
+    background-color: whitesmoke;
+    color: gray;
+    text-align: center;
+    border-radius: 5px;
+    height: 60%;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.hero-direction i{
+    color: darkturquoise;
+}
+.hero-direction h3{
+    color: rgb(27, 62, 84);
+    margin-top: 1.5rem;
+}
+.hero-qoute{
+    background-color: rgb(250, 205, 212);
+    color: black;
+    height: 25px;
+    width: 80%;
+    text-align: center;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+
+.book-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:#e2e7e6;
+}
+.box{
+    height: 450px;
+    width: 23%;
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px 0px 15px;
+}
+.book-img{
+    height: 360px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+.book-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.book-content p{
+    color: #007185;
+    cursor: pointer;
+}
+.book-content h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.user-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#d2e7e3;
+    margin-top: 15px;
+}
+.boxx{
+    background-color: white;
+    height: 400px;
+    width: 23%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid rgb(194, 165, 0);
+}
+.info-content{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.info-content a{
+    cursor: pointer;
+}
+.info-content h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.info-content p{
+    color: red;
+    font-size: small;
+    margin-top: 5px;
+}
+.drop-cap{
+    font-size: larger;
+    margin-bottom: 5px;
+}
+.info-button1{
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.info-button2{
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.info-button3{
+    margin-top: 140px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+button{
+    border-radius: 4px;
+    background-color: antiquewhite;
+    width: 80%;
+    height: 40px;
+    font-weight: bold;
+    font-size: medium; 
+    cursor: pointer;
+}
+
+
+footer{
+    margin-top: 15px;
+}
+.foot-pannel1{
+    background-color: #37475a;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    font-size: small;
+}
+.foot-pannel2{
+    background-color: #222f3d;
+    color: white;
+    justify-content: space-evenly;
+    display: flex;
+    height: 200px;
+}
+ul{
+    margin-top: 20px;
+}
+.foot-pannel2 a{
+    display: block;
+    color: #dddddd;
+    font-size: smaller;
+    margin-top: 30px;
+}
+.foot-pannel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid gray;
+    height: 90px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-logo{
+    background-image: url("h-logo.jpg");
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+}
+.foot-pannel3 p{
+    text-align: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.foot-pannel4{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #0f1111;
+    color: white;
+    height: 90px;
+}
+.logos{
+    font-size: large;
+    padding-top: 25px;
+}
+.text{
+    font-size: 0.7rem;
+    padding-top: 5px;
+}
+.watermark{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #37475a;
+    color: white;
+    height: 30px;
+    width: 100%;
+    display: flex;
+}
